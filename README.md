@@ -1,6 +1,7 @@
 # 🧠 Realfy AI Fitness Evaluator
 
-A smart AI-powered fitness app that uses real-time pose detection and 3D rendering to help users evaluate their fitness form and exercises using webcam input.
+**AI Fitness Evaluator** ek **real-time AI-based web application** hai jo aapke workout posture (jaise squats, push-ups) ko **analyze** karta hai using **pose detection models**.  
+Yeh app aapke **webcam** ke through body movements ko **track** karta hai aur **sahi ya galat posture** ke basis par **live feedback** deta hai — sab kuch aapke browser ke andar hi hota hai, bina kisi **backend** ya external device ke.
 
 ---
 
@@ -10,15 +11,15 @@ A smart AI-powered fitness app that uses real-time pose detection and 3D renderi
 
 ---
 
-## 📸 Features
+🔥 Features
 
-- 🎯 **AI Pose Detection** using TensorFlow and Mediapipe
-- 🎥 **Real-time Webcam Integration** for live form feedback
-- 🌐 **3D Visualizations** using Three.js and React Three Fiber
-- 📦 Built with **Vite** for lightning-fast performance
-- ⚙️ Modular and maintainable code using React hooks
+- 📹 **Real-Time Webcam Analysis** with `react-webcam`
+- 🧠 **AI-Powered Pose Detection** using TensorFlow and MediaPipe
+- ✅ **Live Form Feedback** (e.g., *“Bend your knees more”*)
+- 🔄 **Exercise Switch**: Toggle between squats and push-ups
+- 🟢 **3D Visual Keypoints** rendered with `three.js` and `@react-three/fiber`
+- ⚡ Built using **Vite** for fast builds and hot-reloading
 
----
 
 ## 🧩 Tech Stack
 
@@ -36,8 +37,6 @@ A smart AI-powered fitness app that uses real-time pose detection and 3D renderi
 
 ---
 
-
----
 
 ## 🛠️ Getting Started (Local Development)
 
