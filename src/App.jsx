@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>AI Fitness Coach</h1>
+      <h1>🏋️ AI Fitness Evaluator</h1>
       <ExerciseSelector onSelect={setExercise} currentExercise={exercise} />
       
       <div className="detection-container">
